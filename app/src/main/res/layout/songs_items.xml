@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="getSong">
+    android:onClick="getSong"
+    android:background="@color/colorBackground">
 
     <TextView
         android:id="@+id/ranking"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:textSize="36sp"
+        android:layout_marginTop="16dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="16dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="36sp"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp" />
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/title"
@@ -22,6 +24,7 @@
         android:layout_height="20dp"
         android:layout_marginLeft="8dp"
         android:text="TextView"
+        android:textColor="@android:color/holo_orange_dark"
         android:textSize="18sp"
         app:layout_constraintLeft_toRightOf="@+id/ranking"
         app:layout_constraintTop_toTopOf="parent"
@@ -42,9 +45,10 @@
         android:id="@+id/url"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="1dp"
         android:onClick="getSong"
-        android:text="Play"
+        android:background="@color/colorBackground"
+        android:text=""
         app:layout_constraintLeft_toRightOf="@+id/title"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="0" />
 </android.support.constraint.ConstraintLayout>
