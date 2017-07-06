@@ -29,8 +29,8 @@
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="272dp"
-        android:layout_height="68dp"
+        android:layout_width="124dp"
+        android:layout_height="62dp"
         android:layout_marginTop="16dp"
         android:text="Title+artist"
         android:textColor="@android:color/holo_orange_dark"

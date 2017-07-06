@@ -31,7 +31,6 @@ public class TopSongsAdapter extends ArrayAdapter<Song> {
         //note: acquire each element.
         TextView ranking = (TextView) listItemView.findViewById(R.id.ranking);
         TextView title = (TextView) listItemView.findViewById(R.id.title);
-        Button url = (Button) listItemView.findViewById(R.id.url);
 
         //note: show each element.
         ranking.setText(currentSong.getRanking().toString());
